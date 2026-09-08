@@ -1,0 +1,13 @@
+[project]
+name = "wichteln"
+version = "2026.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "homolan13", email = "93644446+homolan13@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+wichteln = "wichteln:main"
