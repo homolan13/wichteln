@@ -1,0 +1,21 @@
+[project]
+name = "wichteln"
+version = "2026.1.2"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "homolan13", email = "93644446+homolan13@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "typer >=0.27, <1",
+    "PyYAML >=6.0, <7",
+    "pydantic >=2.13, <3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+wichteln = "wichteln:main"
